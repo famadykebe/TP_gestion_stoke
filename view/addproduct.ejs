@@ -1,0 +1,47 @@
+<%- include template/header.ejs %>
+
+
+<section id="block_form">
+
+  <div>
+
+    <div id="error" class=""></div>
+
+    <div class="form-control">
+      <label for="">Nom :</label>
+      <span class="icon-input fa fa-user"></span>
+      <input type="text" id="name" value="overboard" class="input">
+    </div>
+
+    <div class="form-control">
+      <label for="">Prix :</label>
+      <span class="icon-input fa fa-euro"></span>
+      <input type="number" id="price" value="overboard" class="input">
+    </div>
+
+    <div class="form-control">
+      <label for="">Mark :</label>
+      <select id="mark" class="optionchoix">
+        <option>all mark</otpion>
+        <option value="1">adidas</option>
+        <option value="2">nike</option>
+        <option value="3">fila</option>
+        <option value="4">puma</option>
+        <option value="5">rebook</option>
+
+      </select>
+    </div>
+
+    <div class="form-control">
+      <label for="">Description :</label>
+      <span class="icon-input fa fa-pencil"></span>
+      <textarea class="input-textarea" id="dest"></textarea>
+    </div>
+
+    <button class="btn" style="margin-bottom:7px;" id="btn_verify">valider</button>
+
+  </div>
+
+</section>
+
+<%- include template/footer.ejs %>

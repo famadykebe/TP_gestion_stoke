@@ -1,0 +1,19 @@
+
+<nav class="navigation" role="navigation">
+
+  <ul class="list-nav">
+
+    <% for(let i = 0; i < composent.nav.length; i++)
+    {
+
+    %>
+      <li class="item">
+        <a href="<%= composent.nav[i].route %>"><%= composent.nav[i].label %></a>
+      </li>
+  <%
+    }
+  %>
+
+  </ul>
+
+</nav>

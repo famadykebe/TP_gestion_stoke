@@ -1,0 +1,46 @@
+<%- include template/header.ejs %>
+
+
+
+
+
+  <a href="" class="btn btn-index"><i class="fa fa-plus"></i> AJOUTE UN ARTICLE</a>
+
+  <hr class="tired">
+
+  <table class="table">
+  <thead>
+    <tr class="fires-th">
+      <th scope="col">nom</th>
+      <th scope="col">prix</th>
+      <th scope="col">mark</th>
+      <th scope="col">description</th>
+      <th scope="col">operation</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  <% for(var i = 0; i < donnes.length; i++){%>
+    <tr>
+
+      <td><%= donnes[i].nom %></td>
+      <td><%= donnes[i].prix %> <i class="fa fa-euro"><i/></td>
+      <td><%= donnes[i].id_mark%></td>
+      <td><%= donnes[i].dest %></td>
+      <td>
+          <span class="icon-cofing"><i class="fa fa-pencil"></i></span>
+          <span class="icon-cofing"><i class="fa fa-trash"></i></span>
+
+      </td>
+    </tr>
+  <%}%>
+
+  </tbody>
+
+</table>
+
+
+
+
+
+<%- include template/footer.ejs %>

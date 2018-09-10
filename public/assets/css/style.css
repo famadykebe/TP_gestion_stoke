@@ -1,0 +1,179 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+    color:#333
+}
+
+
+.titrre-page
+{
+  margin: 8px 0px;;
+}
+
+.btn {
+    background: #0aa679;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #30856c
+}
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+section,header,nav,footer,aside,article,video,caption,figcaption
+{
+  display: block;
+}
+
+
+.container
+{
+  width: 980px;
+  margin:3% auto;
+}
+
+#header
+{
+    height: 66px;
+    width: 100%;
+    padding-left: 10px;
+    background: rgb(11, 166, 121)
+}
+
+#header #logo
+{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#header #logo .title_logo
+{
+  font-family: 'Ruslan Display', cursive;
+  font-size: 30px;
+  color: white;
+}
+
+.navigation
+{
+  display: inline-block;
+  float: right;
+}
+
+.navigation .list-nav .item
+{
+  float: left;
+  list-style-type: none;
+}
+
+.navigation .list-nav .item a:first-child
+{
+  border-left: 1px solid #fff
+}
+
+.navigation .list-nav .item a
+{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-left: 1px solid #fff;
+
+  text-align: center;
+  line-height: 66px;
+  display:inline-block;
+  width: 120px;
+  height: 64px;
+  transition:.5s
+
+}
+
+.navigation .list-nav .item a:hover
+{
+      background: rgb(13, 138, 102);
+}
+
+.tired
+{
+  margin-top: 6px;
+  border:1px solid #f1f1f1
+}
+
+/*--footer ped page--*/
+
+.pied_page
+ {
+     background: rgb(11, 166, 121);
+     padding: 10px;
+     color:white
+
+ }
+
+ .pied_page .footer-title
+ {
+   display: inline-block;
+ }
+
+ .pied_page .copyright
+ {
+   float: right;
+ }
+
+ /*-- style alert --*/
+
+ .alert-danger
+ {
+   background-color: #f2dede;
+    border-color: #ebcccc;
+    color: #a94442;
+ }
+
+ .alert{
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+}
+
+ .close {
+    position: relative;
+    top: -.75rem;
+    right: -1.25rem;
+    padding: .75rem 1.25rem;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    float: right;
+}
+
+.close:hover
+{
+  opacity: 1
+}
